@@ -39,14 +39,15 @@ dtypes_mapping = {
 'V-C-Conformity'                        : 'int',
 'V-C-Security'                          : 'int',
 'AVG-V-Conservation'                  : 'float',
-'P-E-Aesthetic_appreciation'            : 'int',
-'P-E-Social_self-esteem'                : 'int',
-'P-E-Inquisitiveness'                   : 'int',
-'P-E-Social_boldness'                   : 'int',
-'P-E-Creativity'                        : 'int',
-'P-E-Sociability'                       : 'int',
-'P-E-Unconventionality'                 : 'int',
+'P-OX-Aesthetic_appreciation'            : 'int',
+'P-OX-Inquisitiveness'                   : 'int',
+'P-OX-Creativity'                        : 'int',                  
+'P-OX-Unconventionality'                 : 'int',
 'P-E-Liveliness'                        : 'int',
+'AVG-P-Opennes_to_experience'           : 'int',
+'P-E-Social_self-esteem'                : 'int',
+'P-E-Social_boldness'                   : 'int',
+'P-E-Sociability'                       : 'int',
 'AVG-P-Extraversion'                  : 'float',
 'P-HH-Modesty'                          : 'int',
 'P-HH-Greed avoidance'                  : 'int',
@@ -72,3 +73,9 @@ df = df.astype(dtypes_mapping)
 
 print("\nData Types for Each Column:")
 print(df.dtypes)
+
+
+
+
+
+
