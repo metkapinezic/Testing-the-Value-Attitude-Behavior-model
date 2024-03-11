@@ -4,8 +4,6 @@ import numpy as np
 # Read the data
 df = pd.read_csv('./cleandata.csv')
 
-# Check 2: Display columns with null values
-
 # Count NaN values for each column
 nan_count = df.isna().sum()
 
